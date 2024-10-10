@@ -1,0 +1,24 @@
+#include<iostream>
+#include<cstring>
+using namespace std;
+void valid(char str1[],char str2[])
+{
+	if(strcmp(str1,str2)==0)
+	{
+		cout<<"valid";
+	}
+	else
+	{
+		cout<<"invalid";
+	}
+	
+}
+int main()
+{
+	char a[20],b[20];
+	cout<<"enter the username1"<<endl;
+	cin>>a;
+	cout<<"enter the username2"<<endl;
+	cin>>b;
+	valid(a,b);
+}
