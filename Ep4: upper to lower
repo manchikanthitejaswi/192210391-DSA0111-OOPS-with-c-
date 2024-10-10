@@ -1,0 +1,14 @@
+#include<iostream>
+#include<cstring>
+using namespace std;
+int main()
+{
+  int i;
+  char a[]="TEST";
+  int l=strlen(a);
+  for(i = 0; i <l; i++)
+  {
+    a[i] = tolower(a[i]);
+  }
+  cout<<a;
+}
